@@ -1,0 +1,6 @@
+{
+  "name": "Disturb Robin",
+  "description": "Ad blocker VPN app",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

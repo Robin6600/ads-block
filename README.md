@@ -1,11 +1,25 @@
-<div align="center">
+# Disturb Robin - Ad Blocker VPN
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+"No Ads. Ever. Not from Games, YouTube, Facebook, or Any App."
 
-  <h1>Built with AI Studio</h2>
+Disturb Robin is a production-ready, non-root Android application that blocks advertisements device-wide using a local VPN service.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Core Features
+*   **100% Non-Root**: Uses Android's `VpnService` to capture outbound traffic.
+*   **System-Wide Blocking**: Blocks ads in games, browsing, and social media natively using DNS manipulation.
+*   **Ad-Blocking DNS**: Deflects ad connections by forwarding port 53 UDP requests to AdGuard DNS.
+*   **Privacy-First**: No data is sent to external servers for tracking or analytics.
+*   **Material 3 UI**: Built with Jetpack Compose featuring a sleek pulse animation and stats dashboard.
+*   **Bengali & English Support**: Internationalized strings.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## How It Works
+The app creates a local VPN tunnel. It registers known ad-blocking DNS servers (such as AdGuard DNS) and intercepts internet traffic. Ad requests are dropped or null-routed without ever reaching external servers.
 
-</div>
+## Build and Run
+1. Open in Android Studio or build via `.gradlew assembleDebug`.
+2. Install the APK to your device.
+3. Tap the central Shield icon to start the VPN block service.
+4. When prompted, allow the VPN configuration.
+
+## License
+MIT License

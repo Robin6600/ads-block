@@ -1,0 +1,57 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Shield Border -->
+    <path
+        android:pathData="M54,20 C65,22.5 79,20 79,20 C79,20 83,48 54,88 C25,48 29,20 29,20 C29,20 43,22.5 54,20 Z"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFFFFF">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="20"
+                android:endX="54"
+                android:endY="88"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#EADDFF" />
+                <item android:offset="1.0" android:color="#D0BCFF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Shield Border Dark Cutout -->
+    <path
+        android:fillColor="#1A1C1E"
+        android:pathData="M54,26 C63,28.2 73,26 73,26 C73,26 76.2,49 54,80 C31.8,49 35,26 35,26 C35,26 45,28.2 54,26 Z" />
+
+    <!-- Stylized Spreading Wings (Robin Bird) in Glowing Electric Light Purple/Rose -->
+    <path
+        android:pathData="M54,42 C59,35 69,32 74,37 C71,43 62,50 54,50 C46,50 37,43 34,37 C39,32 49,35 54,42 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="32"
+                android:endX="54"
+                android:endY="50"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#F87171" />
+                <item android:offset="1.0" android:color="#D0BCFF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Robin Bird Head & Beak -->
+    <path
+        android:fillColor="#F87171"
+        android:pathData="M54,42 L54,39 C54,37.5 54.8,36.5 55.5,36.5 L54,34 L52.5,36.5 C53.2,36.5 54,37.5 54,39 Z" />
+
+    <!-- Robin Bird Tail -->
+    <path
+        android:fillColor="#D0BCFF"
+        android:pathData="M54,50 L51,58 L57,58 Z" />
+
+</vector>
